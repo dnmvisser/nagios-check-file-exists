@@ -1,4 +1,4 @@
-#  check\_hsts\_headers
+#  check-file-exists
 
 A Nagios check to monitor the presence of absence of a file
 
