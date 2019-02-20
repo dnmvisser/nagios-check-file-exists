@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# https://github.com/dnmvisser/nagios-check-file-exists
 import argparse
 import sys
 import os
@@ -13,9 +14,9 @@ try:
             description='Check for the (non) existence of a file',
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog=textwrap.dedent('''\
-                To check for pending reboots on Debian/Ubuntu:  
-                    
-                %(prog)s -f /var/run/reboot-required --absent  
+                To check for pending reboots on Debian/Ubuntu:
+
+                %(prog)s -f /var/run/reboot-required --absent
             '''))
     parser.add_argument('-f', '--file',
             dest='path',
