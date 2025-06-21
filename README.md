@@ -4,7 +4,7 @@ A Nagios check to monitor the presence of absence of a file
 
 ## Requirements
 
-Python3 with the `argparse`, `sys`, `os`, and `textwrap` modules
+Python3.2 or newer
 
 ## Usage
 
